@@ -1,16 +1,16 @@
 <script setup>
-  import slide from './components/slide.vue';
+  import slideGamer from './components/slideGamer.vue';
   import navBar from './components/navBar.vue'; 
-  import footerHeader from './components/footerHeader.vue'; 
+  import cardDeCompra from './components/cardsDeCompra.vue';
 </script>
 
 <template>
   
   <navBar/>
   
-  <slide/>
+  <slideGamer/>
 
-  <footerHeader/>
+  <cardDeCompra/>
 
 </template>
 
