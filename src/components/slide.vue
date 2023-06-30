@@ -11,21 +11,21 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="139161-por-que-uma-viagem-em-familia-pode-ajudar-a-estreitar-os-lacos-1.jpg" class="d-block w-100" alt="...">
+      <img src="./imagens/imagem01.jpg" class="size d-block" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="as-10-rotas-de-aviao-mais-longas-do-mundo.jpg" class="d-block w-100" alt="...">
+      <img src="./imagens/imagem02.jpg" class="d-block" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="capa14-1050x599.jpg" class="d-block w-100" alt="...">
+      <img src="./imagens/imagem03.jpg" class="size d-block" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
@@ -46,5 +46,13 @@
 </template>
 
 <style scoped>
+img{
+    width: 1000px;
+    height: 700px;
+}
+
+.carousel{
+    align-items: center;
+}
 
 </style>
