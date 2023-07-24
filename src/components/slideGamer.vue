@@ -3,58 +3,41 @@
 </script>
 
 <template>
-  <div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <!-- Slide de Destaques -->
+  <section class="container mt-4">
+    <div id="destaquesCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#destaquesCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#destaquesCarousel" data-slide-to="1"></li>
+        <li data-target="#destaquesCarousel" data-slide-to="2"></li>
+        <li data-target="#destaquesCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagensSlide/imagem01.jpg" class="d-block w-100" alt="Destaque 1">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagensSlide/imagem02.jpg" class="d-block w-100" alt="Destaque 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide3.jpg" class="d-block w-100" alt="Destaque 3">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide4.jpg" class="d-block w-100" alt="Destaque 4">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#destaquesCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#destaquesCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
     </div>
-    <div class="carousel-inner tx-color">
-      <div class="carousel-item active">
-        <img src="./imagensSlide/imagem01.jpg" class="fotos-slides d-block" alt="...">
-        <div class="tx-color carousel-caption d-none d-md-block">
-          <h5>Com AeroCompany...</h5>
-          <p>Sua familia fica feliz.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./imagensSlide/imagem02.jpg" class="fotos-slides d-block" alt="...">
-        <div class="tx-color carousel-caption d-none d-md-block">
-          <h5>Com AeroCompany...</h5>
-          <p>voos de qualidade.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./imagensSlide/imagem03.jpg" class="fotos-slides d-block" alt="...">
-        <div class="tx-color carousel-caption d-none d-md-block">
-          <h5>Com AeroCompany...</h5>
-          <p>conheça o mundo inteiro.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+  </section>
 </template>
 
 <style scoped>
-.fotos-slides {
-  display: flex;
-  width: 100% !important;
-  height: 450px !important;
-  align-items: center;
-}
 
-.tx-color{
-  color: #ffffff;
-  font-weight: bold;  
-  text-shadow: 5px 3px 4px black;
-}
 </style>
