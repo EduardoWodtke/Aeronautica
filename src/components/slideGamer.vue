@@ -3,7 +3,6 @@
 </script>
 
 <template>
-  <!-- Slide de Destaques -->
   <section class="container mt-4">
     <div id="destaquesCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -20,10 +19,10 @@
           <img src="./imagensSlide/imagem02.jpg" class="d-block w-100" alt="Destaque 2">
         </div>
         <div class="carousel-item">
-          <img src="img/slide3.jpg" class="d-block w-100" alt="Destaque 3">
+          <img src="./imagensSlide/imagem03.jpg" class="d-block w-100" alt="Destaque 3">
         </div>
         <div class="carousel-item">
-          <img src="img/slide4.jpg" class="d-block w-100" alt="Destaque 4">
+          <img src="./imagensSlide/imagem04.jpg" class="d-block w-100" alt="Destaque 4">
         </div>
       </div>
       <a class="carousel-control-prev" href="#destaquesCarousel" role="button" data-slide="prev">
