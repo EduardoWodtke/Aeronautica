@@ -1,20 +1,14 @@
 <script setup>
-  import slideGamer from './components/slideGamer.vue';
-  import navBar from './components/navBar.vue'; 
-  import cardDeCompra from './components/cardsDeCompra.vue';
-  import footerGamer from './components/footerGamer.Vue';
+ import headerBBC from './components/headerBBC.vue';
+ import footerBBC from './components/footerBBC.vue';
+// import slideBBC from './components/slideBBC.vue';
 </script>
 
 <template>
-  
-  <navBar/>
-  
-  <slideGamer/>
-
-  <cardDeCompra/>
-
-  <footerGamer/>
-
+  <headerBBC/>
+  <router-view />
+  <!-- <slideBBC/> -->
+  <footerBBC/>
 </template>
 
 <style scoped>
